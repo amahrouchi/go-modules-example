@@ -5,6 +5,9 @@
 Explication du la gestion de dépendances en Go
 
 ## Creation du ficher `go.mod` 
+**N.B.:** Pas besoin de se mettre dans le `GOPATH`, on peut créer notre projet où on le souhaite dans notre arborescence.
+
+On créé donc notre répertoire qui servira de racine à notre projet et on se place dedans avant de lancer la commande :
 ```
 go mod init <organization/project>
 ```
